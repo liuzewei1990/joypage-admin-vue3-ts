@@ -1,0 +1,45 @@
+{
+    "name": "app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "vue-cli-service serve --mode dev",
+        "build:test": "vue-cli-service build --mode test --report",
+        "build:prod": "vue-cli-service build --mode prod"
+    },
+    "dependencies": {
+        "core-js": "^3.8.3",
+        "vue": "^3.2.13",
+        "vue-router": "^4.0.3",
+        "vuex": "^4.0.0",
+        "@element-plus/icons-vue": "^1.1.4",
+        "axios": "^0.18.1",
+        "element-plus": "^1.0.2-beta.64",
+        "js-cookie": "^3.0.0",
+        "nprogress": "^0.2.0",
+        "qs": "^6.10.1",
+        "screenfull": "^5.1.0",
+        "vuex-persistedstate": "^2.7.0",
+        "wangeditor": "^4.7.7"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "@vue/cli-plugin-babel": "~5.0.0",
+        "@vue/cli-plugin-eslint": "~5.0.0",
+        "@vue/cli-plugin-router": "~5.0.0",
+        "@vue/cli-plugin-typescript": "~5.0.0",
+        "@vue/cli-plugin-vuex": "~5.0.0",
+        "@vue/cli-service": "~5.0.0",
+        "@vue/eslint-config-typescript": "^9.1.0",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-vue": "^8.0.3",
+        "prettier": "^2.4.1",
+        "less": "^3.0.4",
+        "less-loader": "^5.0.0",
+        "vue-cli-plugin-joypage": "^1.0.9",
+        "typescript": "~4.5.5"
+    }
+}
